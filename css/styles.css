@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.ttf");
+	font-weight: 700;
+}
+body {
+	font-family: Calibri, sans-serif;
+	background: url('http://wallscollection.net/wp-content/uploads/2016/12/Workout-Wallpaper-HD-.jpg') no-repeat fixed;
+	top: 0;
+	background-size: 100%;
+	-o-background-size: cover;
+}
+@media screen and (min-width: 480px){
+	body{
+		background: url('http://wallscollection.net/wp-content/uploads/2016/12/Workout-Wallpaper-HD-.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	}
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	z-index: -1000;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.glyphicon-fire
+{	
+font-size:25px;
+
+}
+.glyphicon-fire:hover
+{color: red;
+}
+.navbar
+{
+	margin-bottom:0 !important;
+
+}
+.sticky
+{
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+}
+
+.p
+{
+    position: absolute;
+    right: 0;
+}
