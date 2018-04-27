@@ -25,11 +25,14 @@ body {
 .content{
 	position: absolute;
 	width: 100%;
-	height: 100vh;
-	z-index: -1000;
+	height: 100%;
+	z-index: -1;
 	background-color: rgba(0,0,0,0.8);
 }
-
+.container{
+    background-color: white;
+	margin-top:5px;
+}
 .glyphicon-fire
 {	
 font-size:25px;
@@ -42,12 +45,6 @@ font-size:25px;
 {
 	margin-bottom:0 !important;
 
-}
-.sticky
-{
-	position: -webkit-sticky;
-	position: sticky;
-	top:0;
 }
 
 .p
