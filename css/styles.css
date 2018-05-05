@@ -30,11 +30,18 @@ body {
     background-color: rgba(0,0,0,0.8);
 }
 .container{
-	padding-bottom:5%;
-    background-color: white;
 	margin-top:5px;
-}
 
+}
+.jumbotron
+{	background-color: white;
+	padding-top:1%;
+}
+.row
+{
+margin-top:5%;
+margin-bottom:5%;
+}
 .fa-d-and-d
 {	
 font-size:25px;
