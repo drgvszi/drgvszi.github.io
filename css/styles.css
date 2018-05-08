@@ -37,11 +37,6 @@ body {
 {	background-color: white;
 	padding-top:1%;
 }
-.row
-{
-margin-top:5%;
-margin-bottom:5%;
-}
 .fa-d-and-d
 {	
 font-size:25px;
@@ -56,4 +51,16 @@ font-size:25px;
 }
 .glyphicon-fire:hover
 {color: red;
+}
+.text
+{
+ text-align:center;
+ font-size:80px;
+ margin-top:20vh;
+color:white;
+ 
+}
+.card
+{Background-color:transparent;
+color:white;
 }
